@@ -9,7 +9,7 @@ $password="55Ozzie99!";
 $dbname="YardsaleDB";
 $mysqli = new mysqli($servername, $username, $password, $dbname);
 
-$email = $_SESSION['email'];;
+$email = $_SESSION['email'];
 
 // POST data from homepage.php
 $sale_date = $_POST['date'];
